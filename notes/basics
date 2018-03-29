@@ -1,0 +1,5 @@
+Alternative to css styling
+
+vscode extension: vscode-styled-components:
+    before: styles inside of back ticks were all yellow;
+    now: styles appear as proper object

@@ -1,0 +1,11 @@
+npm i styled-components
+
+import styled from 'styled-components'
+
+const Title = styled.h1 `
+    color: red;
+    font-size: 100px;
+`
+this sets up the element of h1, which we can then put into our component
+
+inside render: add <Title>My Styled Title!</Title>
