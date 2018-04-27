@@ -33,6 +33,11 @@ const LoremText = styled.p`
   color: #000;
   text-align: left;
   padding-left: 10%;
+  &:hover{
+    background-color: yellow;
+    width: 300px;
+    color: blue;
+  }
 `
 
 class App extends Component {
@@ -45,6 +50,11 @@ class App extends Component {
           <LoremText>Lorem ipsum dolor sit amet</LoremText>
           <br />
           <Button>Click Bait ;)</Button>
+          <h4>To Add to this project:</h4>
+          <list>
+            <p>Functioning To Do List</p>
+            <p>React Toggle Button</p>
+          </list>
         </Header>
       </Wrapper>
     );
